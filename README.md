@@ -1,2 +1,2 @@
-# vanillajs-searcg-questions
+# vanillajs-search-questions
 Vanilla JS Search Question DOM Manupilation
