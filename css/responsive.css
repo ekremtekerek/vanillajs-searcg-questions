@@ -1,0 +1,571 @@
+@media only screen and (max-width: 414px) {
+    .headerBannerOne {
+        display: flex;
+    }
+    .headerRightTop, .headerTopSubMenu,.headerMegaMenu, .headerLeft {
+        display: none;
+    }
+    .headerWrapper {
+        flex-direction: column;
+    }
+    
+    .headerContainer {
+        height: 66px;
+        width: 100%;
+    }
+
+    .logoResonsive {
+        display:block ;
+    }
+
+    .logoResonsive a {
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #000;
+        font-weight: 600;
+        font-size: 16px;
+        color: #000000;
+        margin-top: 0;
+        display: flex;
+        width: 80px;
+        position: absolute;
+        top:12%;
+        left: 50%;
+        margin-left: -10%;
+
+    }
+
+    .headerRight, .headerBottomRight, .showcaseContainer {
+        width: 100%;
+    }
+
+
+    .headerBottomRight div {
+        margin-left: 0;
+    }
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        left: 11px;
+        top: 36%;
+    }
+
+    .search {
+        position: absolute;
+        top:31%;
+        left:64px;
+    }
+
+    .cart {
+        position: absolute;
+        right: 16px;
+        top:32%;
+    }
+
+    .cart .cartTitle {
+        display: none;
+    }
+
+    .headerRightBottom {
+        position: relative;
+        height: 100%;
+    }
+
+    .user {
+        position: absolute;
+        right: 60px;
+        top: 34%;
+    }
+
+    .slide-menu {
+        display: block;
+    }
+
+    .parallax {
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        overflow: hidden; 
+    }
+
+    .parallax__layer {
+        padding:0;
+    }
+
+    .parallax img {
+        width: 188%;
+    }
+
+    .parallax .title {
+        font-size: 30px;
+        top: 50%;
+    }
+
+
+    .showcase, .showcaseImg {
+        width:183px;
+    }
+
+    .showcaseLi li {
+        padding:0 5px;
+    }
+
+    .icoWrapper {
+        flex-wrap: wrap;
+    }
+
+    .icoWrapper > div:last-child {
+        flex-direction: row;
+        width: 100%;
+        padding: 0 5px 0 40px;
+    }   
+
+    .showcaseProductTitle {
+        width: 177px;
+    }
+
+}
+
+
+@media only screen and (min-width: 414px) and (max-width: 600px) {
+    .headerBannerOne {
+        display: flex;
+    }
+    .headerRightTop, .headerTopSubMenu,.headerMegaMenu, .headerLeft {
+        display: none;
+    }
+    .headerWrapper {
+        flex-direction: column;
+    }
+    
+    .headerContainer {
+        height: 66px;
+        width: 100%;
+    }
+
+    .logoResonsive {
+        display:block ;
+    }
+
+    .logoResonsive a {
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #000;
+        font-weight: 600;
+        font-size: 16px;
+        color: #000000;
+        margin-top: 0;
+        display: flex;
+        width: 80px;
+        position: absolute;
+        top:12%;
+        left: 50%;
+        margin-left: -10%;
+
+    }
+
+    .headerRight, .headerBottomRight, .showcaseContainer {
+        width: 100%;
+    }
+
+
+    .headerBottomRight div {
+        margin-left: 0;
+    }
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        left: 11px;
+        top: 36%;
+    }
+
+    .search {
+        position: absolute;
+        top:31%;
+        left:64px;
+    }
+
+    .cart {
+        position: absolute;
+        right: 16px;
+        top:32%;
+    }
+
+    .cart .cartTitle {
+        display: none;
+    }
+
+    .headerRightBottom {
+        position: relative;
+        height: 100%;
+    }
+
+    .user {
+        position: absolute;
+        right: 60px;
+        top: 34%;
+    }
+
+    .slide-menu {
+        display: block;
+    }
+
+    .parallax {
+        height: 414px;
+        display: flex;
+        justify-content: center;
+        overflow: hidden; 
+    }
+
+    .parallax__layer {
+        padding: 414px 0;
+    }
+
+    .parallax img {
+        width: 188%;
+    }
+
+    .parallax .title {
+        font-size: 36px;
+        
+    }
+
+
+    .showcase, .showcaseImg {
+        width:183px;
+    }
+
+    .showcaseLi li {
+        padding:0 5px;
+    }
+
+    .icoWrapper {
+        flex-wrap: wrap;
+    }
+
+    .icoWrapper > div:last-child {
+        flex-direction: row;
+        width: 100%;
+        padding: 0 5px 0 38px;
+    }   
+
+    .showcaseProductTitle {
+        width: 177px;
+    }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px)   {
+.headerBannerOne {
+    display: flex;
+}
+.headerRightTop, .headerTopSubMenu,.headerMegaMenu, .headerLeft {
+    display: none;
+}
+.headerWrapper {
+    flex-direction: column;
+}
+
+.headerContainer {
+    height: 66px;
+    width: 100%;
+}
+
+.logoResonsive {
+    display:block ;
+}
+
+.logoResonsive a {
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 0;
+    display: flex;
+    width: 80px;
+    position: absolute;
+    top:12%;
+    left: 50%;
+    margin-left: -5%;
+
+}
+
+.headerRight, .headerBottomRight, .showcaseContainer {
+    width: 100%;
+}
+
+
+.headerBottomRight div {
+    margin-left: 0;
+}
+
+.menu-icon {
+    display: block;
+    position: absolute;
+    left: 11px;
+    top: 36%;
+}
+
+.search {
+    position: absolute;
+    top:31%;
+    left:64px;
+}
+
+.cart {
+    position: absolute;
+    right: 16px;
+    top:32%;
+}
+
+.cart .cartTitle {
+    display: none;
+}
+
+.headerRightBottom {
+    position: relative;
+    height: 100%;
+}
+
+.user {
+    position: absolute;
+    right: 60px;
+    top: 34%;
+}
+
+.slide-menu {
+    display: block;
+}
+
+.parallax {
+    height: 414px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden; 
+}
+
+.parallax img {
+    width: 167%;
+}
+
+.parallax .title {
+    font-size: 48px;
+}
+
+
+
+.showcase, .showcaseImg {
+    width:224px;
+}
+
+.showcaseLi li {
+    padding:0 12px;
+}
+
+.showcaseLi li:first-child {
+    padding-left: 24px;
+}
+
+.icoWrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icoWrapper > div:last-child {
+    flex-direction: row;
+    width: 100%;
+    padding:0px 81px 0 116px;
+}   
+
+.showcaseProductTitle {
+    width: 177px;
+}
+
+.showcaseImgOne img {
+    width: 110%;
+}
+
+.pointsHead h1 {
+    width: 25rem;
+}
+
+.pointsHead p {
+    width: 26rem;
+}
+
+.icoWrap {
+    padding: 0 44px;
+}
+
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width:992px) {
+.headerBannerOne {
+    display: flex;
+}
+.headerRightTop, .headerTopSubMenu,.headerMegaMenu, .headerLeft {
+    display: none;
+}
+.headerWrapper {
+    flex-direction: column;
+}
+
+.headerContainer {
+    height: 66px;
+    width: 100%;
+}
+
+.logoResonsive {
+    display:block ;
+}
+
+.logoResonsive a {
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 0;
+    display: flex;
+    width: 80px;
+    position: absolute;
+    top:12%;
+    left: 50%;
+    margin-left: -5%;
+
+}
+
+.headerRight, .headerBottomRight, .showcaseContainer {
+    width: 100%;
+}
+
+
+.headerBottomRight div {
+    margin-left: 0;
+}
+
+.menu-icon {
+    display: block;
+    position: absolute;
+    left: 11px;
+    top: 36%;
+}
+
+.search {
+    position: absolute;
+    top:31%;
+    left:64px;
+}
+
+.cart {
+    position: absolute;
+    right: 16px;
+    top:32%;
+}
+
+.cart .cartTitle {
+    display: none;
+}
+
+.headerRightBottom {
+    position: relative;
+    height: 100%;
+}
+
+.user {
+    position: absolute;
+    right: 60px;
+    top: 34%;
+}
+
+.slide-menu {
+    display: block;
+}
+
+.parallax {
+    height: 414px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden; 
+}
+
+.parallax img {
+    width: 167%;
+}
+
+.parallax .title {
+    font-size: 48px;
+}
+
+
+
+.showcase, .showcaseImg {
+    width:224px;
+}
+
+.showcaseLi li {
+    padding:0 12px;
+}
+
+.showcaseLi li:first-child {
+    padding-left: 24px;
+}
+
+.icoWrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icoWrapper > div:last-child {
+    flex-direction: row;
+    width: 100%;
+    padding: 0 124px 0 159px;
+}   
+
+.showcaseProductTitle {
+    width: 177px;
+}
+
+.showcaseImgOne img {
+    width: 110%;
+}
+
+.pointsHead h1 {
+    width: 25rem;
+}
+
+.pointsHead p {
+    width: 26rem;
+}
+
+.icoWrap {
+    padding: 0 85px;
+}
+
+} 
+
+
+@media only screen and (min-width: 992px) and (max-width:1440px) {
+
+    .showcaseContainer{
+        width: 100%;
+    }
+.showcaseLi li {
+    padding: 0 13px;
+}
+
+
+} 
+
+
